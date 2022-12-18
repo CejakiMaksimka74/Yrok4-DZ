@@ -14,14 +14,14 @@ max=0
 for el in l:
     if el == 0:
         count+=1
-else:
-    if el==1:
-         count1+=1
+for el in l:
+    if el == 1:
+        count1+=1
 if count>=count1:
-    print(count)
+    print(count1)
 else:
     if count1>=count:
-        print(count1)
+        print(count)
 
 
 print(l)
