@@ -5,14 +5,11 @@
 
 # 17
 # 1 2 4 8 16
-n=int(input("Введите число: "))
+n=int(input('Введите число: '))
 count=1
 while count<n:
     print(count)
     count*=2
-
-
-
 
 
 
